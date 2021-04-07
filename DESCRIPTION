@@ -1,0 +1,43 @@
+Package: utmR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Remotes: 
+    samuelgerber/gmra,
+    samuelgerber/mop,
+    samuelgerber/vtkwidgets,
+    stnava/ANTsR
+Depends: 
+    gmra (>= 0.5.3),
+    mop (>= 0.8),
+    vtkwidgets (>= 0.0.0.9000),
+    ANTsR (>= 0.4.9),
+    data.table,
+    lmvar,
+    mmand,
+    stringr,
+    foreach,
+    doParallel,
+    RColorBrewer,
+    optparse,
+    pracma,
+    yaml,
+    shiny,
+    shinyBS,
+    shinythemes,
+    markdown,
+    broom,
+    shinyWidgets,
+    corrplot
