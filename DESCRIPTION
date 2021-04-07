@@ -40,4 +40,5 @@ Depends:
     markdown,
     broom,
     shinyWidgets,
-    corrplot
+    corrplot,
+    DT
