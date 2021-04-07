@@ -14,12 +14,12 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-Remotes: 
+Remotes:
     samuelgerber/gmra,
     samuelgerber/mop,
     samuelgerber/vtkwidgets,
     stnava/ANTsR
-Depends: 
+Depends:
     gmra (>= 0.5.3),
     mop (>= 0.8),
     vtkwidgets (>= 0.0.0.9000),
@@ -41,4 +41,10 @@ Depends:
     broom,
     shinyWidgets,
     corrplot,
-    DT
+    DT,
+    Rcpp,
+    RcppEigen,
+    magrittr,
+    rsvd,
+    magic,
+    psych
