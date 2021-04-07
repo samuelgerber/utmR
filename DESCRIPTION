@@ -47,4 +47,5 @@ Depends:
     magrittr,
     rsvd,
     magic,
-    psych
+    psych,
+    devtools
