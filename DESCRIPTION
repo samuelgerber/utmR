@@ -14,7 +14,7 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
-Remotes: 
+Remotes:
     samuelgerber/gmra,
     samuelgerber/mop,
     samuelgerber/vtkwidgets,
@@ -43,6 +43,7 @@ Depends:
     shinyWidgets,
     corrplot,
     DT,
+    raster,
     Rcpp,
     RcppEigen,
     magrittr,
